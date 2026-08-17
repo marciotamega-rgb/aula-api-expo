@@ -17,11 +17,11 @@ export default function rootStack() {
      />
     <Stack.Screen 
     name="cadusuario"
-     component={cadusuario}  />
-       options={{title: 'cadastro de usuário'}}
+     component={Cadusuario}  />
+       options={{title1 'cadastro de usuário'}}
     <Stack.Screen 
     name="recsenha"
-     component={recsenha}  />
+     component={Recsenha}  />
        options={{title: 'recuperação de senha'}}
     </Stack.Navigator>
   );
