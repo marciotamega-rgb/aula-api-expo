@@ -18,7 +18,7 @@ export default function rootStack() {
     <Stack.Screen 
     name="cadusuario"
      component={Cadusuario}  />
-       options={{title1 'cadastro de usuário'}}
+       options={{title: 'cadastro de usuário'}}
     <Stack.Screen 
     name="recsenha"
      component={Recsenha}  />
